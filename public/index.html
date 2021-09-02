@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+ 
+</head>
+<title>Hamid.CV</title>
+<body>
+  <div class="container max-w-full bg-cover bg-no-repeat pt-10" style="background-image: url('../outsource/img/1920x1080/01.jpg');">
+    <nav class="container max-w-full p-7 md:p-10 border-b border-gray-300 bg-white fixed top-0 cursor-pointer" id="whenScrolled">
+      <div class="flex justify-between">
+        <div>
+          <img src="../outsource/img/logo-dark.png" alt="logo">
+          <!-- <img class="hidden md:block" src="../outsource/img/logo.png" alt="logo"> -->
+        </div>
+        <div id="target1" class="md:hidden cursor-pointer">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-black hover:animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </div>
+        
+        <div class="flex gap-10 hidden md:flex nav-items1">
+          <a href="#" class="font-bold text-sm">HOME</a>
+          <a href="#" class="font-bold text-sm">ABOUT</a>
+          <a href="#" class="font-bold text-sm">EXPERIENCE</a>
+          <a href="#" class="font-bold text-sm">WORK</a>
+          <a href="#" class="font-bold text-sm">CONTACT</a>
+        </div>
+      </div>
+      <div id="ul" class="container max-w-full mt-10 bg-white hidden" >
+        <ul class="mt-10 font-semibold text-sm nav-items">
+          <li class="mb-5"><a href="#">HOME</a></li>
+          <li class="mb-5"><a href="#">ABOUT</a></li>
+          <li class="mb-5"><a href="#">EXPERIENCE</a></li>
+          <li class="mb-5"><a href="#">WORK</a></li>
+          <li class="mb-1"><a href="#">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--headings nav-->
+     <div class="flex-row mt-10 lg:mt-24 py-5 text-white px-3 md:py-10 lg:py-24 xl:pt-36 meHead">
+      <h1 class="font-bold text-5xl lg:text-7xl">Alex <br> Teseira</h1>
+      <p class="mt-3 font-semibold text-lg lg:text-2xl">Web Designer & Front-end Developer</p>
+      <hr class="p-2 mt-7">
+      <div class="flex space-x-5 lg:space-x-8 mb-36 px-2 py-7">
+        <a href="#"><img class="h-5 w-5" src="images/facebook.svg" alt=""></a>
+        <a href="#"><img class="h-5 w-5" src="images/twitter.svg" alt=""></a>
+        <a href="#"><img class="h-5 w-5" src="images/globe-line-option.svg" alt=""></a>
+        <a href="#"><img class="h-5 w-5" src="images/behance.png" alt=""></a>
+        <a href="#"><img class="h-5 w-5" src="images/linkedin.svg" alt=""></a>
+      </div>
+     </div>
+  </div> <!--bg image-->
+  <!--Intro section-->
+  <section class="px-10 my-16">
+    <div class="flex space-x-10 md:space-x-36 justify-center">
+      <div class="flex-row ">
+        <h1 class="font-bold text-lg md:text-2xl text-left md:text-right pb-2">Intro</h1>
+        <p class="text-gray-500 ">What I am all about</p>
+      </div>
+      <div class="flex-row">
+        <p class="text-gray-500 ">Lorem ipsum dolor sit amet, consectetur adip,Lorem ipsum dolor sit amet, consectetur</p>
+        <p class="text-gray-500 mb-10">Lorem ipsum dolor sit amet, consectetur adip,Lorem ipsum dolor sit amet, consectetur</p>
+        <div class="flex-row space-y-3 ">
+          <div class="flex justify-between mb-3">
+            <h2>PHP</h2>
+            <p>87%</p>
+          </div>
+          <div class="h-1 w-full bg-gray-200 rounded">
+            <div class="h-1 w-2/3 bg-blue-500 rounded"></div>
+          </div>
+          <div class="flex justify-between mb-3">
+            <h2>HTML5</h2>
+            <p>87%</p>
+          </div>
+          <div class="h-1 w-full bg-gray-200 rounded">
+            <div class="h-1 w-2/3 bg-blue-500 rounded"></div>
+          </div>
+          <div class="flex justify-between mb-3">
+            <h2>JavaScript</h2>
+            <p>87%</p>
+          </div>
+          <div class="h-1 w-full bg-gray-200 rounded">
+            <div class="h-1 w-2/3 bg-blue-500 rounded"></div>
+          </div>
+          <div class="flex justify-between mb-3">
+            <h2>Photoshop</h2>
+            <p>87%</p>
+          </div>
+          <div class="h-1 w-full bg-gray-200 rounded">
+            <div class="h-1 w-2/3 bg-blue-500 rounded"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--experience section-->
+  <section class="mx-10">
+    <div class="flex md:flex-cols-2 space-x-10 text-center md:text-left md:space-x-36 justify-center">
+      <div class="flex-row pl-2">
+        <h1 class="font-bold text-2xl lg:3xl text-left md:text-right ">Experience</h1>
+        <p>Batman would be <br> jealous</p>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 items-center ">
+        <div class="flex-row p-7 space-y-4 w-52 hover:bg-blue-300 hover:text-white">
+          <p><img src="images/manual.svg" class="h-7 w-7 mx-auto sm:mx-1" alt="book"></p><!--icons-->
+          <h2>HTML5/CSS3</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur,Lorem ipsum dolor sit amet, consectetur</p>
+        </div>
+        <div class="flex-row p-7 space-y-4 w-52 bg-blue-300 hover:bg-gray-400 hover:text-white">
+          <p><img src="images/manual.svg" class="h-7 w-7 mx-auto sm:mx-1" alt="book"></p><!--icons-->
+          <h2>HTML5/CSS3</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur,Lorem ipsum dolor sit amet, consectetur</p>
+        </div>
+        <div class="flex-row p-7 space-y-4 w-52 hover:bg-blue-300 hover:text-white">
+          <p><img src="images/manual.svg" class="h-7 w-7 mx-auto sm:mx-1" alt="book"></p><!--icons-->
+          <h2>HTML5/CSS3</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur,Lorem ipsum dolor sit amet, consectetur</p>
+        </div>
+      </div>
+    </div>
+
+    <!--works-->
+    <div class="flex sm:flex-cols-2 space-x-16 sm:space-x-36 justify-center mt-16 mx-10">
+      <div class="flex-row">
+        <h2 class="font-bold text-lg md:text-2xl pb-2">Works</h2>
+        <p>I build the real value.</p>
+      </div>
+      <div class="grid sm:grid-cols-2 gap-2">
+        <a href="#"><img src="../outsource/img/800x400/01.jpg" class="" alt=""></a>
+        <a href="#"><img src="../outsource/img/397x400/01.jpg" class="" alt=""></a>
+        <a href="#"><img src="../outsource/img/397x300/01.jpg" class="" alt=""></a>
+        <a href="#"><img src="../outsource/img/397x300/02.jpg" class="" alt=""></a>
+        <a href="#"><img src="../outsource/img/397x300/03.jpg" class="" alt=""></a>
+      </div>
+    </div>
+    <!--contacts-->
+    <div class="container mx-auto ">
+      <div class="grid sm:grid-cols-3 md:grid-cols-5 mt-16 justify-center items-ceter gap-5 md:gap-7 lg:gap-10 mb-16 ">
+        <div class="flex-row mb-5 sm:mb-2">
+          <h1 class="font-semibold text-2xl">Contacts</h1>
+          <p class="text-gray-500">Hire me.</p>
+        </div>
+        <div class="flex-row mb-5 sm:mb-2">
+          <h1 class="font-semibold text-lg">Location</h1>
+          <p class=" text-gray-500">unckown,unckown</p>
+        </div>
+        <div class="flex-row mb-5 sm:mb-2">
+          <h1 class="font-semibold text-lg">Phone</h1>
+          <p class=" text-gray-500">+77 00000000</p>
+        </div>
+        <div class="flex-row mb-5 sm:mb-2">
+          <h1 class="font-semibold text-lg">Email</h1>
+          <p class=" text-gray-500">sample.com</p>
+        </div>
+        <div class="flex-row mb-5 sm:mb-2">
+          <h1 class="font-semibold text-lg">Web</h1>
+          <p class=" text-gray-500">sample.com</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    $(document).ready(function(){
+      $('#target1').click(function(){
+        $('#ul').toggleClass('hidden')
+      });
+      // $('#whenScrolled').click(function(){
+      //   $('#whenScrolled').toggleClass('md:bg-opacity-0').addClass('text-black')
+      // });
+    });
+  </script>
+</body>
+</html>
