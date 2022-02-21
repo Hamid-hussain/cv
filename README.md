@@ -1,1 +1,1 @@
-Deployed page: https://hamid-hussain.github.io/cv/public/index.html
+Deployed page: https://hamid1882.github.io/cv/public/index.html
